@@ -1,0 +1,23 @@
+{
+    "name": "cosmicdock",
+    "version": "1.0.0",
+    "description": "CosmicDock - A powerful JavaScript application",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "test:coverage": "jest --coverage"
+    },
+    "keywords": ["javascript", "nodejs", "cosmicdock"],
+    "author": "luisotakubanda",
+    "license": "MIT",
+    "dependencies": {
+        "minimist": "^1.2.8"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "nodemon": "^3.0.1"
+    }
+}
